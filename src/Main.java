@@ -12,6 +12,5 @@ public class Main {
                 System.out.println(mainWindow.getMousePosition().getX() + " " + (mainWindow.getMousePosition().getY() - 30));
             }
         });
-        System.out.println("run");
     }
 }
