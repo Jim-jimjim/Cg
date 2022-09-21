@@ -19,13 +19,29 @@ public class Sword {
         } else {
             this.length = size;
         }
+    }
 
+    public Sword(int x, int y, int size, boolean shorty) {
+        this.x = x;
+        this.y = y;
+        this.height = 4 * size;
+        this.c = Color.BLACK;
+        if (!shorty) {
+            this.length = size / 2;
+        } else {
+            this.length = size;
+        }
     }
 
     public void draw(Graphics2D g) {
-        g.drawRect(x,y,length,height);
+        Color old = g.getColor();
+        g.setColor(c);
 
         g.fillOval((int) (x + length / 2 - length * 0.25), y, (int) (length* 0.5), (int) (length * 0.5));
-        g.fillRect((int) (x - length * 0.15), y + length / 2, (int) (length * 0.15), height / 4);
+        g.fillRect((int) (x + length * 0.5 - length * 0.07), y + length / 2, (int) (length * 0.15), height / 4);
+        g.drawArc(0,  (int) (length * 0.5) + height / 4, length, height / 12, 0, 180);
+        g.fillRect((int) (x + length * 0.5 - length * 0.15), y + length / 2 + height / 4, (int) (length * 0.3), (int) (height / 1.5));
+
+        g.setColor(old);
     }
 }
