@@ -9,7 +9,7 @@ public class Light {
 
     public static void draw(Graphics2D g) {
         var color = g.getColor();
-        var paint = g.getPaint();
+        var paint = g.getTransform();
 
         g.setColor(new Color(255, 236, 166, 79));
         g.fillOval(-70, 200, 300, 300);
@@ -22,6 +22,6 @@ public class Light {
         g.rotate(0.85, -70 + 150, 200 + 150);
         g.fillRect(65, -550,30, 750);
         g.setColor(color);
-        g.setPaint(paint);
+        g.setTransform(paint);
     }
 }
