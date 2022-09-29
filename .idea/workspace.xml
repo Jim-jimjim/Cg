@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa691ba8-bb43-4887-a5f8-ccbd536b6f12" name="Changes" comment="Работа со светом">
-      <change afterPath="$PROJECT_DIR$/src/elements/entities/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="aa691ba8-bb43-4887-a5f8-ccbd536b6f12" name="Changes" comment="Fhxth b abrcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Field/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Field/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/Sky/Sky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Sky/Sky.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/entities/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/entities/Light.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,8 @@
       <workItem from="1663614767898" duration="210000" />
       <workItem from="1663778487142" duration="5546000" />
       <workItem from="1663855138493" duration="7318000" />
-      <workItem from="1663948207052" duration="9130000" />
+      <workItem from="1663948207052" duration="9252000" />
+      <workItem from="1664441040524" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Hbcjdfybt vtxf">
       <created>1663780274169</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663948691760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fhxth b abrcs">
+      <created>1663957745874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663957745874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +146,8 @@
     <MESSAGE value="Hbcjdfybt vtxf" />
     <MESSAGE value="Swords" />
     <MESSAGE value="Работа со светом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа со светом" />
+    <MESSAGE value="Fhxth b abrcs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fhxth b abrcs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

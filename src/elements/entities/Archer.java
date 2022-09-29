@@ -10,18 +10,20 @@ public class Archer {
     private static Polygon drawAnimation(){
         int[] x = new int[70 * 2 + 1];
         int[] y = new int[70 * 2 + 1];
+
         for (int i = 0; i < 70; i++) {
             x[i]= 665 - i;
             y[i]= (int) (350 + (int)((double) 3 * Math.sin((i + multi / 2) * 0.1)) + i / (double) 10);
             x[70 * 2 - i]= 665 - 30;
             y[70 * 2 - i]= 350 - 20;
         }
+
         x[70] = 665 - 70 + 20;
         y[70] = 350 - 20 + (int)((double) 3 * Math.sin((70) * 0.1));
 
         if (multi >= -7200) multi--; else multi = 0;
 
-        return new Polygon(x, y, 70 *2+1);
+        return new Polygon(x, y, 70 * 2 + 1);
     }
 
     public static void draw(Graphics2D g) {

@@ -1,23 +1,37 @@
 import elements.Field.Field;
-import elements.Sky.Cloud;
 import elements.Sky.Sky;
-import elements.Swords.Sword;
+import elements.entities.Archer;
+import elements.entities.Light;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class DrawPanel  extends JPanel {
+public class DrawPanel  extends JPanel implements ActionListener {
+    Timer t = new Timer(15, this);
+
     public DrawPanel() {
+        t.start();
     }
 
     @Override
     public void paint(Graphics gr) {
         super.paint(gr);
         Graphics2D g = (Graphics2D) gr;
-//
-//        Sword sword = new Sword(0, 0, 100, Color.BLACK, false);
-//        sword.draw(g);
+
+        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+                RenderingHints.VALUE_ANTIALIAS_ON);
+
         Sky.draw(g);
         Field.draw(g);
+        Light.draw(g);
+        Archer.draw(g);
+
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        repaint();
     }
 }

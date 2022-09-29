@@ -30,6 +30,15 @@ public class Field {
         g.fill(path);
         g.draw(path);
 
+        g.setColor(new Color(21, 13, 7));
+        g.fillRect(450, 436, 150, 5);
+        g.fillRect(721, 568, 150, 5);
+        g.fillRect(1037, 506, 150, 5);
+        g.fillRect(101, 530, 150, 5);
+        g.fillRect(821, 455, 150, 5);
+        g.fillRect(1052, 631, 150, 5);
+        g.fillRect(214, 631, 150, 5);
+
         g.setColor(new Color(253, 252, 245, 137));
         GeneralPath path1 = new GeneralPath();
         path1.moveTo(553.0, 375.0);
@@ -39,6 +48,7 @@ public class Field {
 
         g.fill(path1);
         g.draw(path1);
+
 
         g.setColor(c);
     }
@@ -50,6 +60,34 @@ public class Field {
         swords.add(new Sword(1030, 380,60, false));
         swords.add(new Sword(750, 430,55, false));
         swords.add(new Sword(100, 450,30, false));
+
+        swords.add(new Sword(279, 438,30, false));
+        swords.add(new Sword(98, 474,30, false));
+        swords.add(new Sword(32, 482,30, false));
+        swords.add(new Sword(65, 551,30, false));
+        swords.add(new Sword(169, 553,30, false));
+        swords.add(new Sword(225, 594,30, false));
+        swords.add(new Sword(335, 537,30, false));
+        swords.add(new Sword(822, 429,30, false));
+        swords.add(new Sword(884, 459,30, false));
+        swords.add(new Sword(866, 575,30, false));
+        swords.add(new Sword(1005, 586,30, false));
+        swords.add(new Sword(1028, 477,30, false));
+        swords.add(new Sword(1147, 531,30, false));
+        swords.add(new Sword(1196, 611,30, false));
+
+        swords.add(new Sword(796, 403,30, false));
+        swords.add(new Sword(944, 421,30, false));
+        swords.add(new Sword(1100, 433,30, false));
+        swords.add(new Sword(1081, 527,30, false));
+        swords.add(new Sword(1219, 520,30, false));
+        swords.add(new Sword(307, 395,30, false));
+        swords.add(new Sword(441, 383,30, false));
+        swords.add(new Sword(152, 430,30, false));
+        swords.add(new Sword(983, 474,30, false));
+        swords.add(new Sword(1011, 417,30, false));
+        swords.add(new Sword(1229, 430,30, false));
+
         for (Sword s : swords) s.draw(g);
         swords.clear();
 

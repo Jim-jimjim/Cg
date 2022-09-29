@@ -16,8 +16,6 @@ public class Sky {
         g.fillRect(0, 0, 1280, 720);
         g.setPaint(old);
 
-
-
         ArrayList<Cloud> list = new ArrayList<>();
         list.add(new Cloud(325, 100, 200, Color.DARK_GRAY));
         list.add(new Cloud(94, 283, 180, Color.DARK_GRAY));
